@@ -24,21 +24,21 @@ $api = new \Muabannhanh\MbnApi(array(
 
 ####Listing
 ```php
-*****************
+
 // Find category
 $res = $api->find('category');
 
-*****************
+
 // Find Province
 $res = $api->find('province');
 
-*****************
+
 // Find Article by category
 $res = $api->find('article', array(
     "category" => 139
 ));
 
-*****************
+
 // Limit and pagination
 $res = $api->find('article', array(
     "limit" => 10,
@@ -52,13 +52,12 @@ $res = $api->get('article', array(
     "id" => 1
 ));
 
-*****************
+
 $res = $api->get('category', array(
     "id" => 139
 ));
 
 
-*****************
 $res = $api->get('province', array(
     "id" => 1
 ));

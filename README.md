@@ -22,7 +22,7 @@ $api = new \Muabannhanh\MbnApi(array(
     
     
 
-####Listing
+#### Listing
 ```php
 
 // Find category
@@ -46,7 +46,7 @@ $res = $api->find('article', array(
 ));
 ```
 
-####Detail
+#### Detail
 ```php
 $res = $api->get('article', array(
     "id" => 1

@@ -12,7 +12,8 @@ composer require tranquangminh/muabannhanh
 ```php
 $api = new \Muabannhanh\MbnApi(array(
     "public_key" => "",
-    "private_key" => ""
+    "private_key" => "",
+    "session_token => ""
 ));
 
 ```

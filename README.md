@@ -3,6 +3,11 @@ mbn-magicminh
 
 Api MBN
 
+# Cài đặt thông qua Composer 
+```
+composer require tranquangminh/muabannhanh
+```
+
 ## Khởi tạo ứng dụng với mã được cấp từ Muabannhanh.Com
 ```php
 $api = new \Muabannhanh\MbnApi(array(
